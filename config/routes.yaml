@@ -1,0 +1,21 @@
+api_authenticate:
+    path: /api-authenticate
+    controller: App\Controller\DefaultController::apiAuthenticate
+data_table:
+    path: /datatable
+    controller: App\Controller\DefaultController::dataTable
+authenticate_movie:
+    path: /authenticate-movie
+    controller: App\Controller\DefaultController::authenticateMovie
+add_movies:
+    path: /addMovies/{nr}
+    controller: App\Controller\DefaultController::addMovies
+list_movies:
+    path: /list/movies
+    controller: App\Controller\DefaultController::listMovies
+list_raw_movies:
+    path: /list/raw/movies
+    controller: App\Controller\DefaultController::listRawMovies
+get_movies:
+    path: /get/movies
+    controller: App\Controller\DefaultController::getMovies

@@ -1,0 +1,13 @@
+###> symfony/framework-bundle ###
+/.env
+/public/bundles/
+/var/
+/vendor/
+symfony.lock
+###< symfony/framework-bundle ###
+
+###> romaricp ###
+.idea
+.docker/data/
+###< romaricp ###
+
